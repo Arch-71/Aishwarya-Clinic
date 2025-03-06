@@ -1,0 +1,24 @@
+patient ardhya@gmail.com
+ ardhya
+doctor aishwarya@gmail.com
+aish
+sharan@gmail.com
+sharan8
+
+
+<?php
+$host = 'sql107.byethost22.com'; 
+$db = 'b22_38442932_hms'; 
+$user = 'b22_38442932'; 
+$pass = 'aish7124'; 
+
+try {
+    
+    $pdo = new PDO("mysql:host=$host;dbname=$db", $user, $pass);
+    
+    $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
+} catch (PDOException $e) {
+    
+    echo "Connection failed: " . $e->getMessage();
+}
+?>
