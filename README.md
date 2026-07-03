@@ -497,8 +497,4 @@ This project is intended for educational and academic purposes.
 
 ---
 
-# 👨‍💻 Developed By
 
-**Archana Sharma N V**
-
-BMS College of Engineering
